@@ -4,12 +4,19 @@
 
 function App()
 {
-  return(
+  let jsx1 = <h1>Hello Universe</h1>
+
+  //multilinear with required parameter
+  let jsx2= (
     <>
-    <h1>Hello World</h1>
-    <p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long.</p>
+      <h1>Hello World</h1>
+      <p>
+        <h2>I am Rohit Pawar</h2>
+        <h2>I am From Shevgaon.</h2>
+      </p>
     </>
   );
+  return jsx2;
 }
 export default App;
 // new function
