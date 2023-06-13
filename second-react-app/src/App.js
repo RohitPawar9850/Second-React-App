@@ -1,12 +1,24 @@
-// conditional in jsx
-
-function App()
+function App ()
 {
-  let jsx1 = <h1>Hello World</h1>
-  let jsx2 = (
-    <h1>Good Night</h1>
-  );
-  return false ? jsx1 : jsx2;
+    return(
+    <>
+    <h1>Hello World</h1>
+    <h3>Suggestions</h3>
+    <h1>/* 
+if auto suggestions are not working
+then on bottom of vs code select javascript
+and select javascript and jsx.
+*/</h1>
+    </>
+    );
 }
+
 export default App;
-// new function
+
+
+
+/* 
+if auto suggestions are not working
+then on bottom of vs code select javascript
+and select javascript and jsx.
+*/
